@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-block {
+    background: url("../img/Background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 286px;
+    padding-bottom: 208px;
+}
+
+.main-title {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 79px;
+    font-weight: 500;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.main-subtitle {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.main-button {
+    display: block;
+    margin-top: 32px;
+    padding: 26px 22px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E2E3D;
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 181px;
+}
+
+.section-title-text {
+    font-family: "Montserrat";
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.person-info-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 175px;
+    margin-top: 51px;
+}
+
+.person-text-area {
+    margin-left: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.person-info-text {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 365px;
+}
+
+.footer-block {
+    background-color: #1E2E3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 503.39px;
+    gap: 10px;
+}
+
+.footer-title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.footer-text {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+@media screen and (max-width:975px) {
+    .person-info-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .main-title {
+        font-size: 60px;
+    }
+
+    .footer-title {
+        font-size: 25px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+}
